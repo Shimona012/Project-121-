@@ -47,7 +47,7 @@ while True:
         final_image = np.where(res == 0, mountain, res)
 
         # show it
-        cv2.imshow('frame' , frame)
+        cv2.imshow('final_image' , frame)
 
         # wait of 1ms before displaying another frame
         code = cv2.waitKey(1)
